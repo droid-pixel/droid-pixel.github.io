@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Droid-Pixel</title>
+    <title>droid-pixel</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="icon" type="image/png" href="logo.jpg">
@@ -16,9 +16,75 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <div>
-        <h1 class="mb-3">Droid-Pixel</h1>
+        <h1 class="mb-3">droid-pixel</h1>
         <img src='logo.jpg' width='200' class="mb-3">
-        <h6>color schemes and font packages</h6>
+    </div>
+
+    <div class='row'>
+        <div class='col-4'>
+            <div class="card">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#ebebeb">
+                        <span class="badge badge-light badge-pill" id="copy">#EBEBEB</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#adcbff">
+                        <span class="badge badge-light badge-pill">#ADCBFF</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#e8ccff">
+                        <span class="badge badge-light badge-pill">#E8CCFF</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#303035">
+                        <span class="badge badge-light badge-pill">#303035</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
+                            <img src = "share.svg" width='18'>
+                        </li>
+                    </ul>
+              </div>
+        </div>
+        <div class='col-4'>
+            <div class="card">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#cfe0e8">
+                        <span class="badge badge-light badge-pill">#CFE0E8</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#b7d7e8">
+                        <span class="badge badge-light badge-pill">#B7D7E8</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#87bdd8">
+                        <span class="badge badge-light badge-pill">#87BDD8</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#daebe8">
+                        <span class="badge badge-light badge-pill">#DAEBE8</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
+                            <img src = "share.svg" width='18'>
+                        </li>
+                    </ul>
+              </div>
+        </div>
+        <div class='col-4'>
+            <div class="card">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#b9936c">
+                        <span class="badge badge-light badge-pill">#B9936C</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#dac292">
+                        <span class="badge badge-light badge-pill">#DAC292</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#e6e2d3">
+                        <span class="badge badge-light badge-pill">#E6E2D3</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#c4b7a6">
+                        <span class="badge badge-light badge-pill">#C4B7A6</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
+                            <img src = "share.svg" width='18'>
+                        </li>
+                    </ul>
+              </div>
+        </div>
     </div>
 </body>
+
+<script type="text/javascript">
+
+    const copy = document.getElementById("copy");
+
+    copy.onclick = function () {
+        document.execCommand("Copy");
+    };
+
+
+</script>
+
+
 </html>
