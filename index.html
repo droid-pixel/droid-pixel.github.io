@@ -1,44 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <title>droid-pixel</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="icon" type="image/png" href="logo.jpg">
     <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
     <link href="style.css" type="text/css" rel="stylesheet">
 </head>
 
 <body class="pt-0">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
     <div>
         <h1 class="mb-3">droid-pixel</h1>
-        <img src='logo.jpg' width='100' class="mb-3">
+        <img src='logo.jpg' width='50' class="mb-3">
     </div>
 
     <div class='row'>
         <div class='col-lg-3 col-md-4 col-sm-6'>
-            <div class="card">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#EBEBEB">
-                            <button id="clickToCopy" data-toggle="tooltip" title="click to copy" class="badge badge-light badge-pill" onclick="copyToClipboard('#EBEBEB')"><span id="EBEBEB">#EBEBEB</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#ADCBFF">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#ADCBFF')"><span id="ADCBFF">#ADCBFF</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#E8CCFF">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#E8CCFF')"><span id="E8CCFF">#E8CCFF</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#303035">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#303035')"><span id="303035">#303035</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
-                            <img src = "share.svg" class='export' height='22' id="toMyCSS" data-toggle="tooltip" title="copy css" onclick="copyToClipboard('#1')">
-                            <span id="1" style="display:none">:root { --color1: #ebebeb; --color2: #adcbff; --color3: #e8ccff; --color4: #303035; }</span>
-                        </li>
-                    </ul>
-              </div>
-        </div>
+                <div class="card">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#EBEBEB">
+                                <button id="clickToCopy" data-toggle="tooltip" title="click to copy" class="badge badge-light badge-pill" onclick="copyToClipboard('#EBEBEB')"><span id="EBEBEB">#EBEBEB</span></button></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#ADCBFF">
+                                <button class="badge badge-light badge-pill" onclick="copyToClipboard('#ADCBFF')"><span id="ADCBFF">#ADCBFF</span></button></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#E8CCFF">
+                                <button class="badge badge-light badge-pill" onclick="copyToClipboard('#E8CCFF')"><span id="E8CCFF">#E8CCFF</span></button></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#303035">
+                                <button class="badge badge-light badge-pill" onclick="copyToClipboard('#303035')"><span id="303035">#303035</span></button></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
+                                <img src = "share.svg" class='export' height='22' id="toMyCSS" data-toggle="tooltip" title="copy css" onclick="copyToClipboard('#1')">
+                                <span id="1" style="display:none">:root { --color1: #ebebeb; --color2: #adcbff; --color3: #e8ccff; --color4: #303035; }</span>
+                            </li>
+                        </ul>
+                  </div>
+            </div>
         <div class='col-lg-3 col-md-4 col-sm-6'>
             <div class="card">
                     <ul class="list-group list-group-flush">
@@ -653,250 +661,707 @@
         </div>
         <div class='col-lg-3 col-md-4 col-sm-6'>
             <div class="card">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#687818">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#687818')"><span id="687818">#687818</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#FFD58E">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFD58E')"><span id="FFD58E">#FFD58E</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#3C1605">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#3C1605')"><span id="3C1605">#3C1605</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#FFFFFF">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFFFFF')"><span id="FFFFFF">#FFFFFF</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
-                            <img src = "share.svg" class='export' height='22' onclick="copyToClipboard('#34')">
-                            <span id="34" style="display:none">:root { --color1: #687818; --color2: #FFD58E; --color3: #3C1605; --color4: #FFFFFF; }</span>
-                            <a href="http://panerabread.com/" target="_blank"><img src = "panera.jpg" height='22'></a>
-                        </li>
-                    </ul>
-              </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#687818">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#687818')"><span
+                                id="687818">#687818</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#FFD58E">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFD58E')"><span
+                                id="FFD58E">#FFD58E</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#3C1605">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#3C1605')"><span
+                                id="3C1605">#3C1605</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#FFFFFF">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFFFFF')"><span
+                                id="FFFFFF">#FFFFFF</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
+                        <img src="share.svg" class='export' height='22' onclick="copyToClipboard('#panera')">
+                        <span id="panera" style="display:none">:root { --color1: #687818; --color2: #FFD58E; --color3: #3C1605; --color4: #FFFFFF; }</span>
+                        <a href="http://panerabread.com/" target="_blank"><img src="panera.jpg" height='22'></a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class='col-lg-3 col-md-4 col-sm-6'>
             <div class="card">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#00A9A4">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#00A9A4')"><span id="00A9A4">#00A9A4</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#F9B117">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#F9B117')"><span id="F9B117">#F9B117</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#F6911B">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#F6911B')"><span id="F6911B">#F6911B</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#FFFFFF">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFFFFF')"><span id="FFFFFF">#FFFFFF</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
-                            <img src = "share.svg" class='export' height='22' onclick="copyToClipboard('#35')">
-                            <span id="35" style="display:none">:root { --color1: #00A9A4; --color2: #F9B117; --color3: #F6911B; --color4: #FFFFFF; }</span>
-                            <a href="https://www.pampers.com" target="_blank"><img src = "pampers.png" height='22'></a>
-                        </li>
-                    </ul>
-              </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#00A9A4">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#00A9A4')"><span
+                                id="00A9A4">#00A9A4</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#F9B117">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#F9B117')"><span
+                                id="F9B117">#F9B117</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#F6911B">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#F6911B')"><span
+                                id="F6911B">#F6911B</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#FFFFFF">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFFFFF')"><span
+                                id="FFFFFF">#FFFFFF</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
+                        <img src="share.svg" class='export' height='22' onclick="copyToClipboard('#pampers')">
+                        <span id="pampers" style="display:none">:root { --color1: #00A9A4; --color2: #F9B117; --color3: #F6911B; --color4: #FFFFFF; }</span>
+                        <a href="https://www.pampers.com" target="_blank"><img src="pampers.png" height='22'></a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class='col-lg-3 col-md-4 col-sm-6'>
             <div class="card">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#F82B60">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#F82B60')"><span id="F82B60">#F82B60</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#FCB401">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FCB401')"><span id="FCB401">#FCB401</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#19C0FF">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#19C0FF')"><span id="19C0FF">#19C0FF</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#FFFFFF">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFFFFF')"><span id="FFFFFF">#FFFFFF</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
-                            <img src = "share.svg" class='export' height='22' onclick="copyToClipboard('#36')">
-                            <span id="36" style="display:none">:root { --color1: #F82B60; --color2: #FCB401; --color3: #19C0FF; --color4: #FFFFFF; }</span>
-                            <a href="https://airtable.com/" target="_blank"><img src = "airtable.png" height='22'></a>
-                        </li>
-                    </ul>
-              </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#F82B60">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#F82B60')"><span
+                                id="F82B60">#F82B60</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#FCB401">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FCB401')"><span
+                                id="FCB401">#FCB401</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#19C0FF">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#19C0FF')"><span
+                                id="19C0FF">#19C0FF</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#FFFFFF">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFFFFF')"><span
+                                id="FFFFFF">#FFFFFF</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
+                        <img src="share.svg" class='export' height='22' onclick="copyToClipboard('#airtable')">
+                        <span id="airtable" style="display:none">:root { --color1: #F82B60; --color2: #FCB401; --color3: #19C0FF; --color4: #FFFFFF; }</span>
+                        <a href="https://airtable.com/" target="_blank"><img src="airtable.png" height='22'></a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class='col-lg-3 col-md-4 col-sm-6'>
             <div class="card">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#FF3D57">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FF3D57')"><span id="FF3D57">#FF3D57</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#FFCA00">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFCA00')"><span id="FFCA00">#FFCA00</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#00D748">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#00D748')"><span id="00D748">#00D748</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#434343">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#434343')"><span id="434343">#434343</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
-                            <img src = "share.svg" class='export' height='22' onclick="copyToClipboard('#37')">
-                            <span id="37" style="display:none">:root { --color1: #FF3D57; --color2: #FFCA00; --color3: #00D748; --color4: #434343; }</span>
-                            <a href="https://monday.com/" target="_blank"><img src = "monday.png" height='22'></a>
-                        </li>
-                    </ul>
-              </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#FF3D57">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FF3D57')"><span
+                                id="FF3D57">#FF3D57</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#FFCA00">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFCA00')"><span
+                                id="FFCA00">#FFCA00</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#00D748">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#00D748')"><span
+                                id="00D748">#00D748</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#434343">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#434343')"><span
+                                id="434343">#434343</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
+                        <img src="share.svg" class='export' height='22' onclick="copyToClipboard('#monday')">
+                        <span id="monday" style="display:none">:root { --color1: #FF3D57; --color2: #FFCA00; --color3: #00D748; --color4: #434343; }</span>
+                        <a href="https://monday.com/" target="_blank"><img src="monday.png" height='22'></a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class='col-lg-3 col-md-4 col-sm-6'>
             <div class="card">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#F84D08">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#F84D08')"><span id="F84D08">#F84D08</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#4E1D07">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#4E1D07')"><span id="4E1D07">#4E1D07</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#FCC200">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FCC200')"><span id="FCC200">#FCC200</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#FFFFFF">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFFFFF')"><span id="FFFFFF">#FFFFFF</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
-                            <img src = "share.svg" class='export' height='22' onclick="copyToClipboard('#38')">
-                            <span id="38" style="display:none">:root { --color1: #F84D08; --color2: #4E1D07; --color3: #FCC200; --color4: #FFFFFF; }</span>
-                            <a href="https://www.hersheys.com/reeses/en_us/home.html" target="_blank"><img src = "reeses.png" height='22'></a>
-                        </li>
-                    </ul>
-              </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#F84D08">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#F84D08')"><span
+                                id="F84D08">#F84D08</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#4E1D07">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#4E1D07')"><span
+                                id="4E1D07">#4E1D07</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#FCC200">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FCC200')"><span
+                                id="FCC200">#FCC200</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#FFFFFF">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFFFFF')"><span
+                                id="FFFFFF">#FFFFFF</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
+                        <img src="share.svg" class='export' height='22' onclick="copyToClipboard('#reeses')">
+                        <span id="reeses" style="display:none">:root { --color1: #F84D08; --color2: #4E1D07; --color3: #FCC200; --color4: #FFFFFF; }</span>
+                        <a href="https://www.hersheys.com/reeses/en_us/home.html" target="_blank"><img src="reeses.png"
+                                height='22'></a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class='col-lg-3 col-md-4 col-sm-6'>
             <div class="card">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#F25022">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#F25022')"><span id="F25022">#F25022</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#7FBA00">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#7FBA00')"><span id="7FBA00">#7FBA00</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#00A4EF">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#00A4EF')"><span id="00A4EF">#00A4EF</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#FFB900">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFB900')"><span id="FFB900">#FFB900</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
-                            <img src = "share.svg" class='export' height='22' onclick="copyToClipboard('#39')">
-                            <span id="39" style="display:none">:root { --color1: #F25022; --color2: #7FBA00; --color3: #00A4EF; --color4: #FFB900; }</span>
-                            <a href="https://www.microsoft.com/" target="_blank"><img src = "microsoft.svg" height='22'></a>
-                        </li>
-                    </ul>
-              </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#F25022">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#F25022')"><span
+                                id="F25022">#F25022</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#7FBA00">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#7FBA00')"><span
+                                id="7FBA00">#7FBA00</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#00A4EF">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#00A4EF')"><span
+                                id="00A4EF">#00A4EF</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#FFB900">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFB900')"><span
+                                id="FFB900">#FFB900</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
+                        <img src="share.svg" class='export' height='22' onclick="copyToClipboard('#microsoft')">
+                        <span id="microsoft" style="display:none">:root { --color1: #F25022; --color2: #7FBA00; --color3: #00A4EF; --color4: #FFB900; }</span>
+                        <a href="https://www.microsoft.com/" target="_blank"><img src="microsoft.svg" height='22'></a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class='col-lg-3 col-md-4 col-sm-6'>
             <div class="card">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#FF9900">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FF9900')"><span id="FF9900">#FF9900</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#000000">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#000000')"><span id="000000">#000000</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#146EB4">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#146EB4')"><span id="146EB4">#146EB4</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#FFFFFF">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFFFFF')"><span id="FFFFFF">#FFFFFF</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
-                            <img src = "share.svg" class='export' height='22' onclick="copyToClipboard('#40')">
-                            <span id="40" style="display:none">:root { --color1: #FF9900; --color2: #000000; --color3: #146EB4; --color4: #FFFFFF; }</span>
-                            <a href="https://www.amazon.com/" target="_blank"><img src = "amazon.svg" height='22'></a>
-                        </li>
-                    </ul>
-              </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#FF9900">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FF9900')"><span
+                                id="FF9900">#FF9900</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#000000">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#000000')"><span
+                                id="000000">#000000</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#146EB4">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#146EB4')"><span
+                                id="146EB4">#146EB4</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#FFFFFF">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFFFFF')"><span
+                                id="FFFFFF">#FFFFFF</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
+                        <img src="share.svg" class='export' height='22' onclick="copyToClipboard('#amazon')">
+                        <span id="amazon" style="display:none">:root { --color1: #FF9900; --color2: #000000; --color3: #146EB4; --color4: #FFFFFF; }</span>
+                        <a href="https://www.amazon.com/" target="_blank"><img src="amazon.svg" height='22'></a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class='col-lg-3 col-md-4 col-sm-6'>
             <div class="card">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#4267B2">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#4267B2')"><span id="4267B2">#4267B2</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#000000">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#000000')"><span id="000000">#000000</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#898F9C">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#898F9C')"><span id="898F9C">#898F9C</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#FFFFFF">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFFFFF')"><span id="FFFFFF">#FFFFFF</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
-                            <img src = "share.svg" class='export' height='22' onclick="copyToClipboard('#41')">
-                            <span id="41" style="display:none">:root { --color1: #4267B2; --color2: #000000; --color3: #898F9C; --color4: #FFFFFF; }</span>
-                            <a href="https://www.facebook.com/" target="_blank"><img src = "facebook.png" height='22'></a>
-                        </li>
-                    </ul>
-              </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#4267B2">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#4267B2')"><span
+                                id="4267B2">#4267B2</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#000000">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#000000')"><span
+                                id="000000">#000000</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#898F9C">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#898F9C')"><span
+                                id="898F9C">#898F9C</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#FFFFFF">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFFFFF')"><span
+                                id="FFFFFF">#FFFFFF</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
+                        <img src="share.svg" class='export' height='22' onclick="copyToClipboard('#facebook')">
+                        <span id="facebook" style="display:none">:root { --color1: #4267B2; --color2: #000000; --color3: #898F9C; --color4: #FFFFFF; }</span>
+                        <a href="https://www.facebook.com/" target="_blank"><img src="facebook.png" height='22'></a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class='col-lg-3 col-md-4 col-sm-6'>
             <div class="card">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#FC3D21">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FC3D21')"><span id="FC3D21">#FC3D21</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#FFFFFF">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFFFFF')"><span id="FFFFFF">#FFFFFF</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#0B3D91">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#0B3D91')"><span id="0B3D91">#0B3D91</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#000000">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#000000')"><span id="000000">#000000</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
-                            <img src = "share.svg" class='export' height='22' onclick="copyToClipboard('#42')">
-                            <span id="42" style="display:none">:root { --color1: #FC3D21; --color2: #FFFFFF; --color3: #0B3D91; --color4: #000000; }</span>
-                            <a href="https://www.nasa.gov/" target="_blank"><img src = "nasa.png" height='22'></a>
-                        </li>
-                    </ul>
-              </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#0072CE">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#0072CE')"><span
+                                id="0072CE">#0072CE</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#FFB81C">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFB81C')"><span
+                                id="FFB81C">#FFB81C</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#FFFFFF">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFFFFF')"><span
+                                id="FFFFFF">#FFFFFF</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#003087">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#003087')"><span
+                                id="003087">#003087</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
+                        <img src="share.svg" class='export' height='22' onclick="copyToClipboard('#walmart')">
+                        <span id="walmart" style="display:none">:root { --color1: #0072CE; --color2: #FFB81C; --color3: #FFFFFF; --color4: #003087; }</span>
+                        <a href="https://walmart.com" target="_blank"><img src="walmart.jpg" height='22'></a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class='col-lg-3 col-md-4 col-sm-6'>
             <div class="card">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#36C5F0">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#36C5F0')"><span id="36C5F0">#36C5F0</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#2EB67D">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#2EB67D')"><span id="2EB67D">#2EB67D</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#E01E5A">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#E01E5A')"><span id="E01E5A">#E01E5A</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#ECB22E">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#ECB22E')"><span id="ECB22E">#ECB22E</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
-                            <img src = "share.svg" class='export' height='22' onclick="copyToClipboard('#43')">
-                            <span id="43" style="display:none">:root { --color1: #36C5F0; --color2: #2EB67D; --color3: #E01E5A; --color4: #ECB22E; }</span>
-                            <a href="https://slack.com/" target="_blank"><img src = "slack.jpeg" height='22'></a>
-                        </li>
-                    </ul>
-              </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#FC3D21">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FC3D21')"><span
+                                id="FC3D21">#FC3D21</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#FFFFFF">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFFFFF')"><span
+                                id="FFFFFF">#FFFFFF</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#0B3D91">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#0B3D91')"><span
+                                id="0B3D91">#0B3D91</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#000000">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#000000')"><span
+                                id="000000">#000000</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
+                        <img src="share.svg" class='export' height='22' onclick="copyToClipboard('#nasa')">
+                        <span id="nasa" style="display:none">:root { --color1: #FC3D21; --color2: #FFFFFF; --color3: #0B3D91; --color4: #000000; }</span>
+                        <a href="https://www.nasa.gov/" target="_blank"><img src="nasa.png" height='22'></a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class='col-lg-3 col-md-4 col-sm-6'>
             <div class="card">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#00AEEF">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#00AEEF')"><span id="00AEEF">#00AEEF</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#ED008C">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#ED008C')"><span id="ED008C">#ED008C</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#FFF000">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFF000')"><span id="FFF000">#FFF000</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#000000">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#000000')"><span id="000000">#000000</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
-                            <img src = "share.svg" class='export' height='22' onclick="copyToClipboard('#44')">
-                            <span id="44" style="display:none">:root { --color1: #00AEEF; --color2: #ED008C; --color3: #FFF000; --color4: #000000; }</span>
-                            <a href="https://www.cartoonnetwork.com/" target="_blank"><img src = "cartoonnetwork.svg" height='22'></a>
-                        </li>
-                    </ul>
-              </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#36C5F0">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#36C5F0')"><span
+                                id="36C5F0">#36C5F0</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#2EB67D">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#2EB67D')"><span
+                                id="2EB67D">#2EB67D</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#E01E5A">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#E01E5A')"><span
+                                id="E01E5A">#E01E5A</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#ECB22E">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#ECB22E')"><span
+                                id="ECB22E">#ECB22E</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
+                        <img src="share.svg" class='export' height='22' onclick="copyToClipboard('#slack')">
+                        <span id="slack" style="display:none">:root { --color1: #36C5F0; --color2: #2EB67D; --color3: #E01E5A; --color4: #ECB22E; }</span>
+                        <a href="https://slack.com/" target="_blank"><img src="slack.jpeg" height='22'></a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class='col-lg-3 col-md-4 col-sm-6'>
             <div class="card">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#4285F4">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#4285F4')"><span id="4285F4">#4285F4</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#DB4437">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#DB4437')"><span id="DB4437">#DB4437</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#F4B400">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#F4B400')"><span id="F4B400">#F4B400</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#0F9D58">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#0F9D58')"><span id="0F9D58">#0F9D58</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
-                            <img src = "share.svg" class='export' height='22' onclick="copyToClipboard('#45')">
-                            <span id="45" style="display:none">:root { --color1: #4285F4; --color2: #DB4437; --color3: #F4B400; --color4: #0F9D58; }</span>
-                            <a href="https://www.google.com/" target="_blank"><img src = "google.svg" height='22'></a>
-                        </li>
-                    </ul>
-              </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#00AEEF">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#00AEEF')"><span
+                                id="00AEEF">#00AEEF</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#ED008C">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#ED008C')"><span
+                                id="ED008C">#ED008C</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#FFF000">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFF000')"><span
+                                id="FFF000">#FFF000</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#000000">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#000000')"><span
+                                id="000000">#000000</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
+                        <img src="share.svg" class='export' height='22' onclick="copyToClipboard('#cartoonnetwork')">
+                        <span id="cartoonnetwork" style="display:none">:root { --color1: #00AEEF; --color2: #ED008C; --color3: #FFF000; --color4: #000000; }</span>
+                        <a href="https://www.cartoonnetwork.com/" target="_blank"><img src="cartoonnetwork.svg"
+                                height='22'></a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class='col-lg-3 col-md-4 col-sm-6'>
             <div class="card">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#13294B">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#13294B')"><span id="13294B">#13294B</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#FFFFFF">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFFFFF')"><span id="FFFFFF">#FFFFFF</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#E84A27">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#E84A27')"><span id="E84A27">#E84A27</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color:#000000">
-                            <button class="badge badge-light badge-pill" onclick="copyToClipboard('#000000')"><span id="000000">#000000</span></button></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
-                            <img src = "share.svg" class='export' height='22' onclick="copyToClipboard('#46')">
-                            <span id="46" style="display:none">:root { --color1: #13294B; --color2: #FFFFFF; --color3: #E84A27; --color4: #000000; }</span>
-                            <a href="https://illinois.edu" target="_blank"><img src = "illinois.jpg" height='22'></a>
-                        </li>
-                    </ul>
-              </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#4285F4">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#4285F4')"><span
+                                id="4285F4">#4285F4</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#DB4437">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#DB4437')"><span
+                                id="DB4437">#DB4437</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#F4B400">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#F4B400')"><span
+                                id="F4B400">#F4B400</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#0F9D58">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#0F9D58')"><span
+                                id="0F9D58">#0F9D58</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
+                        <img src="share.svg" class='export' height='22' onclick="copyToClipboard('#google')">
+                        <span id="google" style="display:none">:root { --color1: #4285F4; --color2: #DB4437; --color3: #F4B400; --color4: #0F9D58; }</span>
+                        <a href="https://www.google.com/" target="_blank"><img src="google.svg" height='22'></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class='col-lg-3 col-md-4 col-sm-6'>
+            <div class="card">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#702082">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#702082')"><span
+                                id="702082">#702082</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#A77BCA">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#A77BCA')"><span
+                                id="A77BCA">#A77BCA</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#FEE012">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FEE012')"><span
+                                id="FEE012">#FEE012</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#FFFFFF">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFFFFF')"><span
+                                id="FFFFFF">#FFFFFF</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
+                        <img src="share.svg" class='export' height='22' onclick="copyToClipboard('#tacobell')">
+                        <span id="tacobell" style="display:none">:root { --color1: #702082; --color2: #A77BCA; --color3: #FEE012; --color4: #FFFFFF; }</span>
+                        <a href="https://www.tacobell.com/" target="_blank"><img src="tacobell.jpg" height='22'></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class='col-lg-3 col-md-4 col-sm-6'>
+            <div class="card">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#A81612">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#A81612')"><span
+                                id="A81612">#A81612</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#451400">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#451400')"><span
+                                id="451400">#451400</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#FFFFFF">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFFFFF')"><span
+                                id="FFFFFF">#FFFFFF</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#B68207">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#B68207')"><span
+                                id="B68207">#B68207</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
+                        <img src="share.svg" class='export' height='22' onclick="copyToClipboard('#chipotle')">
+                        <span id="chipotle" style="display:none">:root { --color1: #A81612; --color2: #451400; --color3: #FFFFFF; --color4: #B68207; }</span>
+                        <a href="https://www.chipotle.com/" target="_blank"><img src="chipotle.png" height='22'></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class='col-lg-3 col-md-4 col-sm-6'>
+            <div class="card">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#C5050C">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#C5050C')"><span
+                                id="C5050C">#C5050C</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#FFFFFF">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFFFFF')"><span
+                                id="FFFFFF">#FFFFFF</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#9B0000">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#9B0000')"><span
+                                id="9B0000">#9B0000</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#000000">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#000000')"><span
+                                id="000000">#000000</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
+                        <img src="share.svg" class='export' height='22' onclick="copyToClipboard('#wisconsin')">
+                        <span id="wisconsin" style="display:none">:root { --color1: #C5050C; --color2: #9B0000; --color3: #FFFFFF; --color4: #000000; }</span>
+                        <a href="https://www.wisc.edu" target="_blank"><img src="wisconsin.jpg" height='22'></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class='col-lg-3 col-md-4 col-sm-6'>
+            <div class="card">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#13294B">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#13294B')"><span
+                                id="13294B">#13294B</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#FFFFFF">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFFFFF')"><span
+                                id="FFFFFF">#FFFFFF</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#E84A27">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#E84A27')"><span
+                                id="E84A27">#E84A27</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#000000">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#000000')"><span
+                                id="000000">#000000</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
+                        <img src="share.svg" class='export' height='22' onclick="copyToClipboard('#illinois')">
+                        <span id="illinois" style="display:none">:root { --color1: #13294B; --color2: #FFFFFF; --color3: #E84A27; --color4: #000000; }</span>
+                        <a href="https://illinois.edu" target="_blank"><img src="illinois.jpg" height='22'></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class='col-lg-3 col-md-4 col-sm-6'>
+            <div class="card">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#00274C">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#00274C')"><span
+                                id="00274C">#00274C</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#EDECEC">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#EDECEC')"><span
+                                id="EDECEC">#EDECEC</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#FFCB05">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFCB05')"><span
+                                id="FFCB05">#FFCB05</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#FFFFFF">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFFFFF')"><span
+                                id="FFFFFF">#FFFFFF</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
+                        <img src="share.svg" class='export' height='22' onclick="copyToClipboard('#michigan')">
+                        <span id="michigan" style="display:none">:root { --color1: #00274C; --color2: #EDECEC; --color3: #FFCB05; --color4: #FFFFFF; }</span>
+                        <a href="https://umich.edu" target="_blank"><img src="michigan.png" height='22'></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class='col-lg-3 col-md-4 col-sm-6'>
+            <div class="card">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#BB0000">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#BB0000')"><span
+                                id="BB0000">#BB0000</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#666666">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#666666')"><span
+                                id="666666">#666666</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#FFFFFF">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFFFFF')"><span
+                                id="FFFFFF">#FFFFFF</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#000000">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#000000')"><span
+                                id="000000">#000000</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
+                        <img src="share.svg" class='export' height='22' onclick="copyToClipboard('#ohiostate')">
+                        <span id="ohiostate" style="display:none">:root { --color1: #BB0000; --color2: #666666; --color3: #FFFFFF; --color4: #000000; }</span>
+                        <a href="https://www.osu.edu" target="_blank"><img src="ohiostate.jpeg" height='22'></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class='col-lg-3 col-md-4 col-sm-6'>
+            <div class="card">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#2774AE">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#2774AE')"><span
+                                id="2774AE">#2774AE</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#FFD100">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFD100')"><span
+                                id="FFD100">#FFD100</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#FFFFFF">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFFFFF')"><span
+                                id="FFFFFF">#FFFFFF</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#FFB81C">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFB81C')"><span
+                                id="FFB81C">#FFB81C</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
+                        <img src="share.svg" class='export' height='22' onclick="copyToClipboard('#ucla')">
+                        <span id="ucla" style="display:none">:root { --color1: #2774AE; --color2: #FFD100; --color3: #FFFFFF; --color4: #FFB81C; }</span>
+                        <a href="https://www.ucla.edu" target="_blank"><img src="ucla.png" height='22'></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class='col-lg-3 col-md-4 col-sm-6'>
+            <div class="card">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#85754D">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#85754D')"><span
+                                id="85754D">#85754D</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#4B2E83">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#4B2E83')"><span
+                                id="4B2E83">#4B2E83</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#FFFFFF">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFFFFF')"><span
+                                id="FFFFFF">#FFFFFF</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#B7A57A">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#B7A57A')"><span
+                                id="B7A57A">#B7A57A</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
+                        <img src="share.svg" class='export' height='22' onclick="copyToClipboard('#washington')">
+                        <span id="washington" style="display:none">:root { --color1: #85754D; --color2: #4B2E83; --color3: #FFFFFF; --color4: #B7A57A; }</span>
+                        <a href="https://www.washington.edu" target="_blank"><img src="washington.svg" height='22'></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class='col-lg-3 col-md-4 col-sm-6'>
+            <div class="card">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#F1B82D">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#F1B82D')"><span
+                                id="F1B82D">#F1B82D</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#000000">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#000000')"><span
+                                id="000000">#000000</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#8F8884">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#8F8884')"><span
+                                id="8F8884">#8F8884</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#C99403">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#C99403')"><span
+                                id="C99403">#C99403</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
+                        <img src="share.svg" class='export' height='22' onclick="copyToClipboard('#missouri')">
+                        <span id="missouri" style="display:none">:root { --color1: #F1B82D; --color2: #000000; --color3: #8F8884; --color4: #C99403; }</span>
+                        <a href="https://www.missouri.edu" target="_blank"><img src="missouri.png" height='22'></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class='col-lg-3 col-md-4 col-sm-6'>
+            <div class="card">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#F66733">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#F66733')"><span
+                                id="F66733">#F66733</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#522D80">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#522D80')"><span
+                                id="522D80">#522D80</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#FFFFFF">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFFFFF')"><span
+                                id="FFFFFF">#FFFFFF</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#000000">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#000000')"><span
+                                id="000000">#000000</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
+                        <img src="share.svg" class='export' height='22' onclick="copyToClipboard('#clemson')">
+                        <span id="clemson" style="display:none">:root { --color1: #F66733; --color2: #522D80; --color3: #FFFFFF; --color4: #000000; }</span>
+                        <a href="https://www.clemson.edu" target="_blank"><img src="clemson.png" height='22'></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class='col-lg-3 col-md-4 col-sm-6'>
+            <div class="card">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#7A0019">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#7A0019')"><span
+                                id="7A0019">#7A0019</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#FFCC33">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFCC33')"><span
+                                id="FFCC33">#FFCC33</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#333333">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#333333')"><span
+                                id="333333">#333333</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#D5D6D2">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#D5D6D2')"><span
+                                id="D5D6D2">#D5D6D2</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
+                        <img src="share.svg" class='export' height='22' onclick="copyToClipboard('#minnesota')">
+                        <span id="minnesota" style="display:none">:root { --color1: #7A0019; --color2: #FFCC33; --color3: #333333; --color4: #D5D6D2; }</span>
+                        <a href="https://www.umn.edu" target="_blank"><img src="minnesota.png" height='22'></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class='col-lg-3 col-md-4 col-sm-6'>
+            <div class="card">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#000000">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#000000')"><span
+                                id="000000">#000000</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#97A2A2">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#97A2A2')"><span
+                                id="97A2A2">#97A2A2</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#18453B">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#18453B')"><span
+                                id="18453B">#18453B</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#FFFFFF">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#FFFFFF')"><span
+                                id="FFFFFF">#FFFFFF</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
+                        <img src="share.svg" class='export' height='22' onclick="copyToClipboard('#michiganstate')">
+                        <span id="michiganstate" style="display:none">:root { --color1: #7A0019; --color2: #97A2A2; --color3: #18453B; --color4: #FFFFFF; }</span>
+                        <a href="https://www.msu.edu" target="_blank"><img src="michiganstate.png" height='22'></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class='col-lg-3 col-md-4 col-sm-6'>
+            <div class="card">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#CFB87C">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#CFB87C')"><span
+                                id="CFB87C">#CFB87C</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#000000">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#000000')"><span
+                                id="000000">#000000</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#565A5C">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#565A5C')"><span
+                                id="565A5C">#565A5C</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        style="background-color:#A2A4A3">
+                        <button class="badge badge-light badge-pill" onclick="copyToClipboard('#A2A4A3')"><span
+                                id="A2A4A3">#A2A4A3</span></button></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-end" style="font-size:70%;">
+                        <img src="share.svg" class='export' height='22' onclick="copyToClipboard('#cuboulder')">
+                        <span id="cuboulder" style="display:none">:root { --color1: #CFB87C; --color2: #000000; --color3: #565A5C; --color4: #A2A4A3; }</span>
+                        <a href="https://www.colorado.edu" target="_blank"><img src="cuboulder.png" height='22'></a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </body>
@@ -907,22 +1372,22 @@
         $('#clickToCopy').tooltip({
             trigger: 'hover'
         });
-        
+
     });
 
     $(document).ready(function () {
         $('#toMyCSS').tooltip({
             trigger: 'hover'
         });
-        
+
     });
 
     function copyToClipboard(element) {
-    var $temp = $("<input>");
-    $("body").append($temp);
-    $temp.val($(element).text()).select();
-    document.execCommand("copy");
-    $temp.remove();
+        var $temp = $("<input>");
+        $("body").append($temp);
+        $temp.val($(element).text()).select();
+        document.execCommand("copy");
+        $temp.remove();
     }
 
 
